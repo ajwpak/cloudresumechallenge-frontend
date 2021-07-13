@@ -14,4 +14,3 @@ jobs:
           aws-region: us-west-1
       - name: sync to S3
         run: aws s3 sync . s3://ajwpak-cloudresumechallenge --exclude ".git/*" --dryrun
-
