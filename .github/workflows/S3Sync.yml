@@ -13,7 +13,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-1
       - name: sync to S3
-        run: aws s3 sync . s3://ajwpak-cloudresumechallenge --exclude ".git/*" --delete
+        run: aws s3 sync . s3://ajwpak-cloudresumechallenge --exclude ".git/*" --exclude ".github/*" --delete
       - name: CloudFront invalidation
         env:
           DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
