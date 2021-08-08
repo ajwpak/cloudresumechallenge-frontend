@@ -1,4 +1,4 @@
-* { padding: 0; margin: 0; }
+* { padding: 0; margin: 0;}
 
 h1 {
     font-size: 3em;
@@ -7,7 +7,7 @@ h1 {
 }
 
 #contact {
-    font-size: 1.75em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -27,8 +27,8 @@ body {
 }
 
 #content {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
 }
 
 .section {
@@ -54,4 +54,13 @@ body {
 
 ul {
     margin-left: 5%;
+    line-height: 0.6cm
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+.listline {
+    margin-bottom: 5px;
 }
